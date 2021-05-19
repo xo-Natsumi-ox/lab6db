@@ -36,8 +36,8 @@ services:
         condition: service_healthy
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/lab6db
-      SPRING_DATASOURCE_USERNAME: "root"
-      SPRING_DATASOURCE_PASSWORD: "qwerty"
+      SPRING_DATASOURCE_USERNAME: "diana"
+      SPRING_DATASOURCE_PASSWORD: "princessa"
     ports:
       - 8090:8090
 
